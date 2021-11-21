@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: ecu.eci
+testFramework: junit
+sourceLanguage: kotlin
+buildTool: gradle
+features: [annotation-api, app-name, data, data-jpa, gradle, hibernate-jpa, http-client, jdbc-hikari, junit, kafka, kotlin, kotlin-application, kotlin-build, logback, micronaut-build, netty-server, postgres, readme, shade, testcontainers, yaml]
