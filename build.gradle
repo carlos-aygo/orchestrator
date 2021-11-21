@@ -26,6 +26,10 @@ micronaut {
 dependencies {
     kapt("io.micronaut:micronaut-http-validation")
     kapt("io.micronaut.data:micronaut-data-processor")
+    implementation ("com.vladmihalcea:hibernate-types-52:2.9.13")
+    implementation ("com.amazonaws:aws-java-sdk:1.12.110")
+    implementation ("com.jayway.jsonpath:json-path:2.6.0")
+    implementation("io.micronaut.flyway:micronaut-flyway")
     implementation("io.micronaut:micronaut-http-client")
     implementation("io.micronaut:micronaut-runtime")
     implementation("io.micronaut.data:micronaut-data-hibernate-jpa")
