@@ -1,5 +1,5 @@
 applicationType: default
-defaultPackage: ecu.eci
+defaultPackage: edu.eci
 testFramework: junit
 sourceLanguage: kotlin
 buildTool: gradle
